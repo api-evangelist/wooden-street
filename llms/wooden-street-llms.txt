@@ -1,0 +1,48 @@
+# Wooden Street
+
+> Wooden Street (Ufurnish Technology Pvt. Ltd.) is an Indian direct-to-consumer furniture
+> and home-furnishing brand founded in 2015 in Jaipur, Rajasthan. It sells solid-wood and
+> custom-made furniture, mattresses, home decor, modular kitchens and wardrobes through
+> woodenstreet.com and a company-owned network of experience stores across more than 100
+> Indian cities.
+
+## API surface
+
+Wooden Street publishes **no public API and no developer program**. As of 2026-09-04 an
+unauthenticated probe of every host this profile knows found no developer portal, no API
+reference, no OpenAPI / Swagger / GraphQL / AsyncAPI definition, no SDK or client library in
+any public package registry, no Postman collection or workspace, no MCP server, and no A2A
+agent card. The site's robots.txt explicitly disallows `/api/`. A first-party backend host,
+`api.woodenstreet.com`, is reachable and answers with a JSON error envelope, but it is the
+undocumented private backend for the retail storefront and mobile apps — it publishes no
+contract and is not offered as a product.
+
+Do not attempt to call `api.woodenstreet.com`. It is not a published API.
+
+## Company pages
+
+- [Wooden Street](https://www.woodenstreet.com/): Online furniture store — the retail storefront.
+- [About Wooden Street](https://www.woodenstreet.com/about-us): Company background and store network.
+- [Blog](https://www.woodenstreet.com/blog/): Design ideas, interiors and product content.
+- [Store locations](https://www.woodenstreet.com/locations): Experience stores and delivery coverage.
+- [Sell on Wooden Street](https://www.woodenstreet.com/sell-on-woodenstreet): Merchant registration — a form, not an API.
+- [Bulk orders](https://www.woodenstreet.com/bulk-orders): Corporate and bulk purchase enquiries.
+
+## Policies
+
+- [Terms of Use](https://www.woodenstreet.com/terms-of-use)
+- [Privacy Policy](https://www.woodenstreet.com/privacy-policy)
+- [Security and Privacy](https://www.woodenstreet.com/security-and-privacy)
+- [Payment Policy](https://www.woodenstreet.com/payment-policy)
+- [Returns and Refunds](https://www.woodenstreet.com/return-and-refunds)
+- [Grievance Redressal](https://www.woodenstreet.com/grievance-redressal): Published complaint channel; care@woodenstreet.com.
+
+## Optional
+
+- [This profile (apis.yml)](https://raw.githubusercontent.com/api-evangelist/wooden-street/refs/heads/main/apis.yml)
+- [Well-known probe record](https://raw.githubusercontent.com/api-evangelist/wooden-street/refs/heads/main/well-known/wooden-street-well-known.yml)
+
+---
+generated: 2026-09-04
+method: generated
+source: apis.yml + live probes of woodenstreet.com, api.woodenstreet.com (API Evangelist enrichment pipeline)

@@ -1,0 +1,90 @@
+generated: '2026-09-04'
+method: probed
+source: >-
+  Live unauthenticated GET of the named RFC 8615 well-known paths on every host this
+  record knows — the registrable domain and www, the first-party backend host
+  api.woodenstreet.com discovered by DNS, and the media/CDN host images.woodenstreet.de
+  named by the storefront's own og:image and asset URLs.
+note: >-
+  Every probed path missed. Wooden Street serves no security.txt, no OpenID/OAuth
+  discovery document, no /.well-known/api-catalog, no ai-plugin.json and no A2A agent
+  card on any host. The apex woodenstreet.com 301s to www for every path (the redirect
+  target then 404s), api.woodenstreet.com answers every unknown route with its own JSON
+  envelope {"status":"error","message":"Route not found"}, and images.woodenstreet.de is
+  an object-store origin that returns an XML AccessDenied 403 to any path. NO WellKnown,
+  SecurityTxt or AgentCard pointer is emitted from this file — a recorded absence is
+  valid data, not a served surface.
+hosts:
+- host: woodenstreet.com
+  note: apex; 301 redirect to www.woodenstreet.com for every path
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /.well-known/agent-card.json
+    status: 301
+  - path: /.well-known/agent.json
+    status: 301
+- host: www.woodenstreet.com
+  note: canonical storefront host (Next.js)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: api.woodenstreet.com
+  note: >-
+    First-party backend host behind Cloudflare; root returns "Hello, world!" and every
+    unknown route returns a JSON 404 envelope. Undocumented private backend, not a
+    published API product.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: images.woodenstreet.de
+  note: media/CDN origin named by the storefront's og:image; object-store 403 on all paths
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /.well-known/agent-card.json
+    status: 403
+  - path: /.well-known/agent.json
+    status: 403

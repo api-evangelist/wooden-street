@@ -1,0 +1,11 @@
+generated: '2026-09-04'
+method: searched
+source: https://www.woodenstreet.com/
+limit_count: 0
+note: >-
+  No published rate limits, because there is no published API. Wooden Street documents no
+  developer surface, so no quota, window, burst allowance, RateLimit-*/X-RateLimit-* response
+  header or 429 behaviour is stated anywhere. The first-party backend api.woodenstreet.com
+  was not exercised beyond unauthenticated discovery probes, so no runtime limit was observed
+  either. Honest zero after a search.
+rate_limits: []

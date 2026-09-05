@@ -64,5 +64,24 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wooden Street is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Wooden Street (Ufurnish Technology Pvt. Ltd.) is an Indian direct-to-consumer furniture and
+home-furnishing brand founded in 2015 in Jaipur, Rajasthan by Lokendra Ranawat, Virendra
+Ranawat, Dinesh Pratap Singh and Vikas Baheti. It sells solid-wood and custom-made furniture,
+mattresses, home decor, modular kitchens and wardrobes through woodenstreet.com and a
+company-owned, company-operated network of experience stores across more than 100 Indian
+cities. It is venture-backed (Indian Angel Network and Rajasthan Venture Capital Funds,
+WestBridge Capital in 2022, and a Series C led by Premji Invest) and reached this network via
+the secondary-market harvest, where it is listed on EquityZen and Nasdaq Private Market.
+
+## API surface
+
+**None found.** As of the 2026-09-04 enrichment pass Wooden Street publishes no public
+developer program — no developer portal, API reference, OpenAPI/Swagger/GraphQL/AsyncAPI
+definition, SDK, Postman collection, MCP server or A2A agent card on any host we could reach.
+Its `robots.txt` disallows `/api/`, and its 345-URL information sitemap contains no developer,
+API, partner or integration page. A first-party backend host, `api.woodenstreet.com`, resolves
+and answers with a private JSON envelope, but it is the undocumented backend for the retail
+storefront and mobile apps rather than a published API product; nothing here should be read as
+an invitation to call it.
+
+- https://www.woodenstreet.com/
