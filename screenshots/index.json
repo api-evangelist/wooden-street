@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "wooden-street",
+    "captured_at": "2026-10-11T195738",
+    "source_url": "https://www.woodenstreet.com/",
+    "source_type": "Website",
+    "file": "wooden-street-2026-10-11T195738.png",
+    "bytes": 50348,
+    "capture": "playwright-local"
+  }
+]
