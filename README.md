@@ -64,24 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wooden Street (Ufurnish Technology Pvt. Ltd.) is an Indian direct-to-consumer furniture and
-home-furnishing brand founded in 2015 in Jaipur, Rajasthan by Lokendra Ranawat, Virendra
-Ranawat, Dinesh Pratap Singh and Vikas Baheti. It sells solid-wood and custom-made furniture,
-mattresses, home decor, modular kitchens and wardrobes through woodenstreet.com and a
-company-owned, company-operated network of experience stores across more than 100 Indian
-cities. It is venture-backed (Indian Angel Network and Rajasthan Venture Capital Funds,
-WestBridge Capital in 2022, and a Series C led by Premji Invest) and reached this network via
-the secondary-market harvest, where it is listed on EquityZen and Nasdaq Private Market.
+Wooden Street (operated by Ufurnish Technology Pvt. Ltd.) is an Indian direct-to-consumer furniture and home-furnishing brand founded in 2015 in Jaipur, Rajasthan by Lokendra Ranawat, Virendra Ranawat, Dinesh Pratap Singh and Vikas Baheti. It sells solid-wood and custom-made furniture, mattresses, home decor, modular kitchens and wardrobes through woodenstreet.com and a company-owned, company-operated network of experience stores across more than 100 Indian cities, backed by its own manufacturing and warehousing. The company is venture-backed (Indian Angel Network and Rajasthan Venture Capital Funds, then WestBridge Capital in 2022 and a Series C led by Premji Invest) and appears in the API Evangelist network via the secondary-market harvest, where it is listed on EquityZen and Nasdaq Private Market. As of this enrichment pass Wooden Street publishes no public developer program: there is no developer portal, API reference, OpenAPI/GraphQL/AsyncAPI definition, SDK, Postman collection, MCP server or agent card anywhere on its public surface, and its robots.txt explicitly disallows /api/. A first-party backend host, api.woodenstreet.com, is reachable and answers with a JSON envelope, but it is the undocumented private backend for the retail storefront and mobile apps rather than a published API product.
 
-## API surface
+**Areas:** Company · Furniture · Home Furnishings · E-Commerce · Retail · Direct to Consumer · Interior Design · India
 
-**None found.** As of the 2026-09-04 enrichment pass Wooden Street publishes no public
-developer program — no developer portal, API reference, OpenAPI/Swagger/GraphQL/AsyncAPI
-definition, SDK, Postman collection, MCP server or A2A agent card on any host we could reach.
-Its `robots.txt` disallows `/api/`, and its 345-URL information sitemap contains no developer,
-API, partner or integration page. A first-party backend host, `api.woodenstreet.com`, resolves
-and answers with a private JSON envelope, but it is the undocumented backend for the retail
-storefront and mobile apps rather than a published API product; nothing here should be read as
-an invitation to call it.
+## Wooden Street on APIs.io
 
-- https://www.woodenstreet.com/
+Everything profiled for Wooden Street is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wooden-street/](https://apis.io/providers/wooden-street/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wooden Street Domain Security](https://apis.io/security/wooden-street/wooden-street-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Wooden Street Plans Pricing](https://apis.io/plans/wooden-street/wooden-street-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Wooden Street Rate Limits](https://apis.io/rate-limits/wooden-street/wooden-street-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.woodenstreet.com/)
+- [Support](https://www.woodenstreet.com/grievance-redressal)
+- [Blog](https://www.woodenstreet.com/blog/)
+- [Terms of service](https://www.woodenstreet.com/terms-of-use)
+- [Privacy policy](https://www.woodenstreet.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 11.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wooden-street/](https://apis.io/providers/wooden-street/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wooden Street: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wooden-street/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
